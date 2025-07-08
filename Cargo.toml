@@ -1,6 +1,10 @@
 [workspace]
 resolver = "2"
-members = []
+members = [
+    "scope-core",
+    "scope-cli",
+    "scope-web"
+]
 
 [workspace.package]
 name = "scope"
