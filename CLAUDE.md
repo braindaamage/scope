@@ -20,6 +20,11 @@ Scope is a Rust-based "System for Contextual Orchestration of Projects & Executi
 - Both CLI and web interfaces depend on scope-core for shared functionality
 - Use `scope-` prefix for all new crates
 
+**File Size Limits:**
+- Code files: Maximum 300 lines - decompose into components if necessary
+- Documentation files: Maximum 500 lines - separate by topic with index references
+- Memory files: Maximum 100 lines - use index reference pattern
+
 ## Memory Files Reference
 
 - **Commands & Development**: See `memory/commands.md` for Cargo commands, build, test, and development workflows
@@ -27,6 +32,11 @@ Scope is a Rust-based "System for Contextual Orchestration of Projects & Executi
 - **Development Workflow**: See `memory/development.md` for setup, best practices, and common development tasks
 - **Dependencies Management**: See `memory/dependencies.md` for workspace dependencies and version management
 - **Crate Creation**: See `memory/crate-creation.md` for adding new crates to the workspace
+- **File Size Guidelines**: See `memory/file-size-guidelines.md` for file size limits and decomposition strategies
+- **Documentation Guidelines**: See `memory/documentation-guidelines.md` for project documentation standards and organization
+- **README Maintenance**: See `memory/readme-maintenance.md` for main README.md maintenance and content guidelines
+
+**CRITICAL** The most commonly needed items are in the memory files above. Load only what you need for the current task.
 
 ## Quick Reference
 
