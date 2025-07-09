@@ -1,0 +1,12 @@
+[package]
+name = "scope-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "Core functionality for the scope project"
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
