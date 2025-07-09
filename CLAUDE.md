@@ -34,6 +34,7 @@ Scope is a Rust-based "System for Contextual Orchestration of Projects & Executi
 - **Crate Creation**: See `memory/crate-creation.md` for adding new crates to the workspace
 - **File Size Guidelines**: See `memory/file-size-guidelines.md` for file size limits and decomposition strategies
 - **Documentation Guidelines**: See `memory/documentation-guidelines.md` for project documentation standards and organization
+- **Rust Documentation Standards**: See `memory/rust-documentation-standards.md` for Rust code documentation patterns and JSDoc-equivalent practices
 - **README Maintenance**: See `memory/readme-maintenance.md` for main README.md maintenance and content guidelines
 
 **CRITICAL** The most commonly needed items are in the memory files above. Load only what you need for the current task.
